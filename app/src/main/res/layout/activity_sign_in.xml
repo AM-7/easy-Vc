@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signIn">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/sign_in"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <EditText
+        android:id="@+id/edt_signInEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_centerInParent="true"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+
+        android:hint=" Email"
+        android:maxEms="1"
+        android:maxLines="1"
+        android:paddingLeft="5dp"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/edt_signInPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edt_signInEmail"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginBottom="10dp"
+
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:maxEms="1"
+        android:maxLines="1"
+        android:paddingLeft="5dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_signInPassword"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
+        android:text="Sign In" />
+
+    <TextView
+        android:id="@+id/txt_no_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:text="Don't Have An Account?"
+        android:textSize="15dp" />
+
+</RelativeLayout>

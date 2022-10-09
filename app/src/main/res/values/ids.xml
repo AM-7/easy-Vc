@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="codeBox" type="id" />
+    <item name="textView2" type="id" />
+    <item name="imageView3" type="id" />
+    <item name="joinBtn" type="id" />
+    <item name="logOut" type="id" />
+</resources>
