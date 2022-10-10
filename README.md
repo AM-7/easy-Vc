@@ -2,7 +2,7 @@ easy Vc is an android application that allows the users to orgainise a video mee
 Upto 75 users can join at one time and they can share their screen and chat together at the same moment.
 
 The code has been written in Kotlin and XML and Firebase has been used to store and verify login credentials.
-Jitst api has been use to make the meet room and add various features.
+Jitst api has been use to make the meet room and add functionality.
 
 Currently I have pushed the base version of the app and I will make changes and update here.
 
