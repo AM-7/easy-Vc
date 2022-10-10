@@ -43,15 +43,13 @@ class signUp : AppCompatActivity() {
             }else if(password.length<6){
                 signUpBinding.edtSignUpPassword.setError("Password less than 6")
             }
-            else{
-                authentication_signUp(name,email,password)
+            else {
+                authentication_signUp(name, email, password)
             }
-            signUpBinding.txtSingUpAlready.setOnClickListener{
-                startActivity(Intent(this,signIn::class.java))
-                finish()
-            }
-
-
+        }
+        signUpBinding.txtSingUpAlready.setOnClickListener{
+            startActivity(Intent(this,signIn::class.java))
+            finish()
         }
     }
     fun authentication_signUp(name: String, email: String, password: String) {

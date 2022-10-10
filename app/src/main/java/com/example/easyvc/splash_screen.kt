@@ -43,11 +43,11 @@ class splash_screen : AppCompatActivity() {
         }else{
             handler=Handler()
             handler.postDelayed({
-                val intent=Intent(applicationContext,signIn::class.java)
+                val intent=Intent(applicationContext,MainActivity::class.java)
                 startActivity(intent)
                 finish()
 
-            },2000)
+            },2500)
         }
 
 

@@ -12,4 +12,15 @@
         android:src="@drawable/splash_screen"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Made by Ajay"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
 </RelativeLayout>
